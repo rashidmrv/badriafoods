@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 :root {
     /* --primary-color: #ea6b23; */
     --primary-color: #9e2582;
@@ -103,7 +104,6 @@ body {
     /* background: linear-gradient(rgb(254, 254, 254), rgb(255, 255, 255), rgb(255, 250, 244), rgb(254, 243, 227), rgb(254, 236, 208)); */
     background: #ffffff;
     background-attachment: fixed;
-    font-family: 'Roboto';
     overflow-x: hidden;
 }
 
@@ -266,7 +266,7 @@ body {
 }
 
 .main-page .main-head h1 {
-    font-size: 120px;
+    font-size: 100px;
     color: var(--primary-color);
     font-weight: 800;
 }
@@ -274,13 +274,13 @@ body {
 .main-page .main-head h3 {
     color: #000;
     padding-left: 8px;
-    font-size: 49px;
-    font-weight: 800;
+    font-size: 44px;
+    font-weight: 700;
 }
 
 .main-page .content p {
-    font-size: 21px;
-    color: #6e6e6e;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .main-page .buttons .btn {
@@ -488,12 +488,15 @@ body {
 }
 
 .about-section .content h2 {
+    font-size: 50px;
+    font-weight: 700;
     color: #000;
 }
 
 .about-section .content p {
-    font-size: 21px;
-    line-height: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
 }
 
 .about-section .content .btn {
@@ -533,6 +536,16 @@ body {
 .menu-section {
     position: relative;
     margin-top: 5px;
+}
+
+.menu-section .section-head {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.menu-section .menu-conetnt {
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .menu-section .icon img {
@@ -575,12 +588,6 @@ body {
     .menu-section .section-head {
         font-size: 35px;
     }
-}
-
-.menu-section .menu-conetnt {
-    font-size: 21px;
-    line-height: 35px;
-    padding: 30px 100px;
 }
 
 @media (max-width:767px) {
@@ -714,6 +721,16 @@ body {
     color: var(--primary-color);
 }
 
+.menu-section .card .card-body h5 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.menu-section .card .card-body p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 /* menu-section - end */
 
@@ -723,6 +740,11 @@ body {
 .testimonial .slider {
     margin-bottom: 10px;
     position: relative;
+}
+
+.testimonial .section-head {
+    font-size: 50px;
+    font-weight: 700;
 }
 
 @media (max-width:576px) {
@@ -801,13 +823,12 @@ body {
 }
 
 .testimonial .slider .slider-card .content {
-    font-size: 18px;
-    /* font-weight: 400; */
+    font-size: 17px;
+    font-weight: 400;
     /* line-height: 35px; */
     letter-spacing: 1px;
-    text-align: justify;
-    word-spacing: -1px !important;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* word-spacing: -1px !important; */
 }
 
 .testimonial .slider .slider-card .user {
@@ -844,8 +865,14 @@ body {
     position: relative;
 }
 
+.contact .content h2 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
 .contact .content p {
-    font-size: 21px;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .contact .icon1 img {
@@ -904,8 +931,8 @@ body {
 }
 
 .contact .info p {
-    font-size: 18px;
-    letter-spacing: 0.8px;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .contact .contact-form {
@@ -924,9 +951,9 @@ body {
 }
 
 .contact .contact-form label {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 
 .contact .contact-form input,
@@ -1014,7 +1041,7 @@ footer .navbar-brand {
 footer .links li a {
     display: inline-block;
     color: #000;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
 }
 
