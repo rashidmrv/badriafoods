@@ -781,11 +781,7 @@ body {
     }
 }
 
-@media (max-width:576px) {
-    .testimonial .slider-card {
-        margin: 50px 35px 50px 35px;
-    }
-}
+
 
 .testimonial .slider-card .quotes i {
     color: var(--primary-color);
