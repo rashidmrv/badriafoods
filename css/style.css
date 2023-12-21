@@ -59,7 +59,7 @@
     @media (min-width:767px) {
         #preloader .preloader {
             top: 50%;
-            left: 45%;
+            left: 40%;
         }
     }
     #preloader .preloader span {
