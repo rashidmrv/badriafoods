@@ -56,10 +56,10 @@
         left: 50%;
     }
 
-    @media (min-width:767px) {
+    @media (max-width:767px) {
         #preloader .preloader {
             top: 50%;
-            left: 40%;
+            left: 44%;
         }
     }
     #preloader .preloader span {
