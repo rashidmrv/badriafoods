@@ -55,7 +55,13 @@
         top: 50%;
         left: 50%;
     }
-    
+
+    @media (min-width:767px) {
+        #preloader .preloader {
+            top: 50%;
+            left: 45%;
+        }
+    }
     #preloader .preloader span {
         position: absolute;
         display: inline-block;
