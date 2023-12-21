@@ -1,5 +1,15 @@
+// preloader
+// -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
+$(window).on('load', function(event) {
+    $('#preloader').delay(500).fadeOut(500);
+});
+// preloader
+
+
+
+//  testimonial - owl-carousel
 $(document).ready(function() {
-    $('.owl-carousel').owlCarousel({
+    $('.testimonial .owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
         responsiveClass: true,
@@ -27,8 +37,41 @@ $(document).ready(function() {
     })
 })
 
-// preloader
-// -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - 
-$(window).on('load', function(event) {
-    $('#preloader').delay(500).fadeOut(500);
-});
+
+//  testimonial - owl-carousel
+
+
+
+
+//  gallery-section - owl-carousel
+$(document).ready(function() {
+    $('.gallery-section .owl-carousel').owlCarousel({
+
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        // center: true,
+        nav: true,
+        NavText: [
+            "<i class='fa fa-angle-left'></i>",
+            "<i class='fa fa-angle-right'></i>",
+        ],
+        responsive: {
+            0: {
+                items: 1
+            },
+            500: {
+                items: 2
+            },
+            700: {
+                items: 3
+            },
+            1000: {
+                items: 4
+            },
+
+        }
+    })
+})
+
+//  gallery-section - owl-carousel
