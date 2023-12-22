@@ -728,6 +728,22 @@
         z-index: -1;
     }
     
+    .menu-section .icon2 img {
+        position: absolute;
+        top: 50px;
+        right: 3%;
+        z-index: -1;
+        width: 100px;
+    }
+    
+    .menu-section .icon3 img {
+        position: absolute;
+        top: 80px;
+        left: 0%;
+        width: 150px;
+        z-index: -1;
+    }
+    
     @media (max-width:1100px) {
         .menu-section .icon img {
             top: 0px;
@@ -735,10 +751,33 @@
         }
     }
     
+    @media (max-width:992px) {
+        .menu-section .icon2 img {
+            top: 90px;
+            right: 3%;
+            width: 100px;
+        }
+        .menu-section .icon3 img {
+            top: 80px;
+            left: 0%;
+            width: 150px;
+        }
+    }
+    
     @media (max-width:767px) {
         .menu-section .icon img {
             top: 0px;
             left: 20px;
+        }
+        .menu-section .icon2 img {
+            top: 150px;
+            right: 3%;
+            width: 100px;
+        }
+        .menu-section .icon3 img {
+            top: 120px;
+            left: 0%;
+            width: 150px;
         }
     }
     
@@ -750,6 +789,16 @@
         .menu-section .section-head {
             font-size: 35px;
         }
+        .menu-section .icon2 img {
+            top: 200px;
+            right: 2%;
+            width: 100px;
+        }
+        .menu-section .icon3 img {
+            top: 170px;
+            left: 0%;
+            width: 150px;
+        }
     }
     
     @media (max-width:400px) {
@@ -759,6 +808,16 @@
         }
         .menu-section .section-head {
             font-size: 35px;
+        }
+        .menu-section .icon2 img {
+            top: 230px;
+            right: 2%;
+            width: 100px;
+        }
+        .menu-section .icon3 img {
+            top: 200px;
+            left: 0%;
+            width: 150px;
         }
     }
     
